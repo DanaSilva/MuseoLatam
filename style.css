@@ -1,0 +1,231 @@
+/* code fonts monserrat */
+
+@import url('https://fonts.googleapis.com/css2?family=Muli:ital,wght@1,700&family=Quicksand:wght@600&display=swap');
+
+
+/* code bg */
+
+.mycolor {
+
+
+    background-image: url("./assets/web_bg_museolatam.png");
+ 
+    background-repeat: no-repeat;
+
+    background-size: cover;
+
+    background-attachment: fixed;
+
+    -webkit-background-size: cover;
+
+    -moz-background-size: cover;
+
+    -o-background-size: cover;
+
+    height: 100vh;
+
+    width: 100%;
+    
+  
+  }
+
+  .container{
+   
+    /* margin-top: 30px; */
+    font-size: 14px;
+    border: solid 2px purple;
+    height: 100%;
+    width: auto;
+    padding: 0px;
+    margin: 0px;
+
+  }
+
+
+  .mynavbar{
+   
+    /* margin-top: 30px; */
+    
+    /* border: solid 2px purple; */
+    width: 100%;
+    height: 80px;
+   
+
+  }
+
+ .mylogo {
+     width: 210px;
+     height: 65px;
+ }
+
+ .mybell {
+    width: 40px;
+    height: 40px;
+    margin-left: 60px;
+    
+    
+}
+
+.nav-link-bell:hover {
+
+    width: 30px;
+    height: 30px;
+    background-image: url(./assets/hover_notificaciones_museolatam.svg);
+    
+ } 
+
+
+ .nav-item-c{
+
+    width: 120px;
+    height: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 17px;
+    /* margin-right: -10px; */
+    background-color: transparent;
+    margin-left: -20px;
+    margin-right: 10px;
+    
+ }
+
+ .nav-link-c {
+    color: #ff053e;
+ }
+
+ .nav-link-c:hover {
+    color: #6f39f0;
+    text-decoration: none;
+ } 
+
+
+ .nav-item-a{
+
+    width: 120px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 17px;
+    color: whitesmoke;
+    margin-left: 70px;
+    background-color: transparent;
+ }
+
+ .nav-item-b{
+
+    width: 120px;
+    height: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 17px;
+    margin-right: 2px;
+    background-color: transparent;
+     color: whitesmoke;
+ }
+
+ .nav-link {
+    color: whitesmoke;
+ }
+
+ .nav-link:hover {
+    color: #00becf;
+ }
+
+
+ .instagram {
+    width: 50px;
+    height: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    /* margin-left: 350px; */
+ }
+
+ .nav-item-instagram{
+
+    width: 50px;
+    height: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: transparent;
+     margin-left: 300px;
+     margin-right: -50px;
+
+ }
+
+
+
+ .nav-item-facebook{
+
+    width: 30px;
+    height: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: transparent;
+     margin-left: 80px;
+
+
+ }
+
+ .facebook {
+    width: 30px;
+    height: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    /* margin-left: 350px; */
+ }
+
+
+ .nav-item-twitter{
+
+    width: 50px;
+    height: 55px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: transparent;
+     margin-left: 40px;
+     
+
+
+ }
+
+ .twitter {
+    width: 50px;
+    height: 55px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    /* margin-left: 350px; */
+ }
+
+
+ h3 {
+     font-family: 'Quicksand', sans-serif;
+     font-size: 24px;
+     color: #43BCCD;
+     padding-top: 50px;
+
+ }
+
+ .active-cyan-4 input[type=text]{
+    border: 2px solid #43BCCD;
+    box-shadow: 0 0 0 1px #43BCCD;
+    padding-top: 8px;
+    margin-top: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-left: -280px;
+    width: 1000px;
+    font-size: 16px;
+    font-family: 'Quicksand', sans-serif;
+
+  }
