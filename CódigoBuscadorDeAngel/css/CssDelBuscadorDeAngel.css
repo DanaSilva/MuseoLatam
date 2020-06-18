@@ -1,0 +1,27 @@
+
+
+[value="Arte"]:checked ~ .posts .post[data-category]{
+    display: block;
+}
+
+[value="Teatro"]:checked ~ .posts .post:not([data-category~="Teatro"]),
+[value="Cine"]:checked ~ .posts .post:not([data-category~="Cine"]),
+[value="Museo"]:checked ~ .posts .post:not([data-category~="Museo"]),
+[value="Exposiciones"]:checked ~ .posts .post:not([data-category~="Exposiciones"]),
+[value="Conciertos"]:checked ~ .posts .post:not([data-category~="Conciertos"]),
+[value="Horarios"]:checked ~ .posts .post:not([data-category~="Horarios"]){
+    display: none;
+}
+
+[value="Arte"]:checked ~ .container-category [for="Arte"],
+[value="Teatro"]:checked ~ .container-category [for="Teatro"],
+[value="Cine"]:checked ~ .container-category [for="Cine"],
+[value="Museo"]:checked ~ .container-category [for="Museo"],
+[value="Exposiciones"]:checked ~ .container-category [for="Exposiciones"],
+[value="Conciertos"]:checked ~ .container-category [for="Conciertos"],
+[value="Horarios"]:checked ~ .container-category [for="Horarios"]{
+    background: #46a2fd;
+    color: #fff;
+}
+
+
