@@ -1,0 +1,40 @@
+#filter { 
+  max-width: 1000px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.1);
+  text-align: center;
+  padding: .5rem;
+  color: #fff;
+}
+div#flexbox { 
+  padding: 3rem;
+  flex-wrap: wrap;
+  flex-direction: column;
+  -webkit-flex-flow: row wrap; 
+  flex-flow: row wrap; 
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+#flexbox img{ 
+  -webkit-box-flex: auto;
+	-ms-flex: auto;
+	flex: auto; 
+	width: 200px;
+	height: 200px;
+	object-fit: cover;
+	margin: .5vw;
+	transition: 0.5s;
+}
+#flexbox img.diminish { 
+  min-width: 0; flex: 0; 
+}
+
+#categories{
+  width: 150px;
+  border-radius: 50px;
+  background-color: rgb(132, 0, 255);
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Oswald', sans-serif;
+}
